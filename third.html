@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FLEXBOX</title>
+   <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color:rgb(48, 8, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  margin-top: 10px;
+}
+
+.left_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.left_top {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+}
+
+.left_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 2px solid white; */
+  height: 200px;
+  column-gap: 15px;
+}
+
+.left_bottom_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* align-items: center; */
+  /* background-color: yellow; */
+}
+
+.left_bottom_left_top {
+  background-color: orange;
+  height: 58%;
+}
+.left_bottom_left_bottom {
+  background-color: tomato;
+  height: 38%;
+}
+
+.left_bottom_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
+.text {
+  color: white;
+  font-size: 2rem;
+}
+
+.right_container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  margin-left: 20px;
+}
+.right_top{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+  column-gap:5px;
+}
+.right_top_left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.right_top_l1{
+  background-color:tomato;
+  height:70px;
+}
+.right_top_l2{
+  background-color:skyblue;
+  height:50px;
+  margin-top: 10px;
+}
+.right_top_l3{
+  background-color:orange;
+  height:95px;
+  margin-top: 10px;
+}
+.right_top_right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.right_top_r1{
+  background-color:skyblue;
+  height:80px;
+}
+.right_top_r2{
+  background-color:orange;
+  height:70px;
+  margin-top: 10px;
+}
+.right_top_r3{
+  background-color:tomato;
+  height:50px;
+  margin-top: 20px;
+}
+.right_bottom{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+}
+.text{
+  color: white;
+  justify-content: space-around;
+  text-align: justify;
+  font-weight: bolder;
+}
+   </style>
+</head>
+<body class="body">
+  <div class="container">
+    <div class="left_container">
+      <div class="left_top">Left Top</div>
+      <div class="left_bottom">
+        <div class="left_bottom_left">
+          <div class="left_bottom_left_top">Left Bottom Left Top</div>
+          <div class="left_bottom_left_bottom">Left Bottom Left Bottom</div>
+        </div>
+        <div class="left_bottom_right">Left Bottom Right</div>
+      </div>
+    </div>
+    <div class="right_container">
+      <div class="right_top">
+        <div class="right_top_left">
+           <div class="right_top_l1">Right_top_l1</div>
+           <div class="right_top_l2">Right_top_l2</div>
+           <div class="right_top_l3">Right_top_l3</div>
+        </div>
+        <div class="right_top_right">
+          <div class="right_top_r1">Right_top_r1</div>
+           <div class="right_top_r2">Right_top_r2</div>
+           <div class="right_top_r3">Right_top_r3</div>
+        </div>
+      </div>
+      <div class="right_bottom">Right Bottom</div>
+    </div>
+  </div>
+  <h1 class="text">CSS FLEXBOX</h1>
+</body>
+</html>

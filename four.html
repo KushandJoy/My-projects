@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: blue;
+            padding: 10px;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            height: 500px;
+        }
+
+        .header{
+            background-color:aqua;
+            grid-column: 1/ 5;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: aqua;
+            grid-row: 2/4;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .main{
+            background-color: aqua;
+            grid-column: 2/4;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .right{
+            background-color: aqua;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .footer{
+            background-color: aqua;
+            grid-column: 2/5;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu">Menu</div>
+        <div class="main">Main</div>
+        <div class="right">Right</div>
+        <div class="footer">Footer</div>
+    </div>
+    
+</body>
+</html>
