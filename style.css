@@ -1,0 +1,134 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.head{
+    /* width: 100%; */
+    height: auto;
+    padding: 5px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagelogo{
+    width: 4%;
+    height: auto;
+}
+
+.nav_list{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 4px;
+}
+
+.auth_link{
+    display:flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.login{
+    border:2px solid rgba(216, 79, 36, 1);
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.signup{
+    border: 2px solid rgba(216, 79, 36, 1);
+    border-radius:5px;
+}
+
+
+ul li,a{
+    list-style-type: none;
+    text-decoration:none;
+    /* display: inline; */
+    padding: 5px;
+    color: rgba(216, 79, 36, 1);
+    font-weight: bold;
+    font-family: cursive;  
+}
+
+a:hover{
+    background:rgba(216, 79, 36, 1);
+    color:white;
+    padding: 10px;
+    border: 1px solid rgba(216, 79, 36, 1); 
+    border-radius: 1px; 
+    
+    
+}
+
+#image{
+    width: 25%;
+    height: 200px;
+    float: right;
+    padding: 2px;
+    margin-right: 120px;
+}
+
+.explore{
+    list-style:none;
+    text-decoration:none; 
+    background-color:rgba(216, 79, 36, 1);
+    color:white; 
+    padding: 2px;
+    width: 10%;
+}
+
+.wod{
+    width: 100%;
+    height: auto;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+#form{
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    gap: 23px;
+    box-shadow: 1px 1px 1px 1px rgb(194, 190, 190);
+
+}
+
+.w{
+    width: 30%;
+    height: auto;
+    display:inline-block;
+}
+
+.order{
+      list-style: none;
+      text-decoration:none; 
+      background-color:rgba(216, 79, 36, 1);
+      color:white; 
+      padding: 2px;
+      width: 100%;
+      border-radius: 5px;
+      text-align: center;
+}
+
+.footer{
+    background-color:rgba(216, 79, 36, 1);
+    color:white;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    text-decoration: initial;
+    height: 200px;
+}
+
+.foot{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 4px;
+}
